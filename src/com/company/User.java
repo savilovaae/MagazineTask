@@ -20,6 +20,11 @@ public class User {
         return this;
     }
 
+    public User setBasket(Basket basket) {
+        this.userBasket = basket;
+        return this;
+    }
+
     public void getUserBusket() {
         System.out.println(String.format("username: %s,\n user's shopping list: %s",
                 this.login, userBasket.getShoppingList()));
