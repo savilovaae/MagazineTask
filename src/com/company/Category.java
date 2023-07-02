@@ -12,6 +12,11 @@ public class Category {
         products = new ArrayList<Product>();
     }
 
+    public Category setName(String name) {
+        this.name = name;
+        return this;
+    }
+
     public void addProductToCategory(Product item) {
         products.add(item);
     }
