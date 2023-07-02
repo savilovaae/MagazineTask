@@ -4,6 +4,7 @@ public class Product {
     String name;
     int price;
     float rating;
+    
     public Product() {
         this.name = "Unknown Product";
     }
