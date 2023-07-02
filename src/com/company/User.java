@@ -29,5 +29,4 @@ public class User {
         System.out.println(String.format("username: %s,\n user's shopping list: %s",
                 this.login, userBasket.getShoppingList()));
     }
-
 }

@@ -32,6 +32,5 @@ public class Category {
         }
         return categoryList.toString();
     }
-
 }
 
